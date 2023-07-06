@@ -40,7 +40,13 @@ app.MapControllerRoute(
 );
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "CustomerRegistration",
+    pattern: "customers/register",
+    defaults: new { controller = "Customer", action = "Register" }
+);
+
+app.MapControllerRoute(
+name: "default",
+pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
