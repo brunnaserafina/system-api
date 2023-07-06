@@ -29,3 +29,10 @@
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.pdb
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.genruntimeconfig.cache
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/ref/MeuProjetoMVC.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/System.Web.Cors.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/System.Net.Http.Formatting.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/System.Web.Http.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/System.Web.Http.Cors.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.csproj.CopyComplete
