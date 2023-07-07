@@ -12,8 +12,6 @@
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.AssemblyInfo.cs
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.csproj.CoreCompileInputs.cache
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.MvcApplicationPartsAssemblyInfo.cache
-/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.RazorAssemblyInfo.cache
-/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.RazorAssemblyInfo.cs
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/staticwebassets/msbuild.MeuProjetoMVC.Microsoft.AspNetCore.StaticWebAssets.props
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/staticwebassets/msbuild.build.MeuProjetoMVC.props
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MeuProjetoMVC.props
@@ -21,9 +19,7 @@
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/staticwebassets.pack.json
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/staticwebassets.build.json
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/staticwebassets.development.json
-/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/bundle/MeuProjetoMVC.styles.css
-/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/projectbundle/MeuProjetoMVC.bundle.scp.css
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.dll
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/refint/MeuProjetoMVC.dll
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.pdb
@@ -41,3 +37,8 @@
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Npgsql.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

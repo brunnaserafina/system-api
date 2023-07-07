@@ -1,12 +1,14 @@
+using Npgsql;
+
 namespace MeuProjetoMVC.Models;
 
 public class CustomerRequest
 {
-    public string? code { get; set; }
-    public string? name { get; set; }
-    public string? cpf { get; set; }
-    public string? address { get; set; }
-    public string? phone { get; set; }
+    public string code { get; set; } = string.Empty;
+    public string name { get; set; } = string.Empty;
+    public string cpf { get; set; } = string.Empty;
+    public string address { get; set; } = string.Empty;
+    public string phone { get; set; } = string.Empty;
 
     public bool ValidateCPF()
     {
@@ -62,5 +64,33 @@ public class CustomerRequest
 
         return true;
 
+    }
+
+
+    public void InsertCustomer()
+    {
+        var configuration = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json")
+            .Build();
+
+        var connectionString = configuration.GetConnectionString("ConnectionDb");
+
+        using (var connection = new NpgsqlConnection(connectionString))
+        {
+            connection.Open();
+
+            using (var command = new NpgsqlCommand("INSERT INTO customers (name, cpf, code, address, phone) VALUES (@valor1, @valor2, @valor3, @valor4, @valor5)", connection))
+            {
+                command.Parameters.AddWithValue("valor1", this.name);
+                command.Parameters.AddWithValue("valor2", this.cpf);
+                command.Parameters.AddWithValue("valor3", this.code);
+                command.Parameters.AddWithValue("valor4", this.address);
+                command.Parameters.AddWithValue("valor5", this.phone);
+
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
     }
 }

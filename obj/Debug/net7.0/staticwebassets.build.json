@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O8kIUM5a0uc3bFmZeIiT9SPIuM/XzwQ5Y9UCtoBslvY=",
+  "Hash": "9t5oDTqOq1clMNroC+X8ybMHjm/tZojsDGwzC+TBMrE=",
   "Source": "MeuProjetoMVC",
   "BasePath": "_content/MeuProjetoMVC",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/bundle/MeuProjetoMVC.styles.css",
-      "SourceId": "MeuProjetoMVC",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/bundle/",
-      "BasePath": "_content/MeuProjetoMVC",
-      "RelativePath": "MeuProjetoMVC.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/bundle/MeuProjetoMVC.styles.css"
-    },
-    {
-      "Identity": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/projectbundle/MeuProjetoMVC.bundle.scp.css",
-      "SourceId": "MeuProjetoMVC",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/projectbundle/",
-      "BasePath": "_content/MeuProjetoMVC",
-      "RelativePath": "MeuProjetoMVC.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/projectbundle/MeuProjetoMVC.bundle.scp.css"
-    },
     {
       "Identity": "/home/brunna/Documents/MeuProjetoMVC/wwwroot/css/site.css",
       "SourceId": "MeuProjetoMVC",

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/scopedcss/projectbundle/MeuProjetoMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets/MeuProjetoMVC.bundle.scp.css"
-    },
-    {
       "Id": "/home/brunna/Documents/MeuProjetoMVC/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

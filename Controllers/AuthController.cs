@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using MeuProjetoMVC.Models;
 using MeuProjetoMVC.Helpers;
 
+
 namespace MeuProjetoMVC.Controllers;
 
 public class AuthController : Controller
