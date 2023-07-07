@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MeuProjetoMVC.Models;
+using MeuProjetoMVC.Helpers;
 
 namespace MeuProjetoMVC.Controllers;
 
@@ -11,15 +12,10 @@ public class AuthController : Controller
     {
         if (loginRequest.user != "SISTEMA" || loginRequest.password != "candidato123")
         {
-            return NotFound();
+            return BadRequest();
         }
 
-        string token = GenerateToken();
+        string token = TokenHelper.GenerateToken(loginRequest.user);
         return Json(new { status = 200, token });
-    }
-
-    private string GenerateToken()
-    {
-        return "auth-token";
     }
 }
