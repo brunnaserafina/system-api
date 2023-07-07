@@ -36,3 +36,8 @@
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Newtonsoft.Json.dll
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
 /home/brunna/Documents/MeuProjetoMVC/obj/Debug/net7.0/MeuProjetoMVC.csproj.CopyComplete
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
