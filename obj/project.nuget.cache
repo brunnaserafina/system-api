@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VLkjB31XLk1uypGNYvJpdd2pcYqv3KYci7TH3n+35mr4bbIADvdKoMTfkyp5n9xBSYLcDwFQdiXswLuRsnAAUw==",
+  "dgSpecHash": "fbDvtsMaaJPDSTkGG8ywR82CQNhKDXLtUet+66uj1WUMTQZJqPmZSgLZ74Jt1Y6ruy6RZ+4xbd48c5k2TGR83w==",
   "success": true,
   "projectFilePath": "/home/brunna/Documents/MeuProjetoMVC/MeuProjetoMVC.csproj",
   "expectedPackageFiles": [
+    "/home/brunna/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/brunna/.nuget/packages/microsoft.aspnet.cors/5.2.9/microsoft.aspnet.cors.5.2.9.nupkg.sha512",
     "/home/brunna/.nuget/packages/microsoft.aspnet.webapi.client/5.2.9/microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "/home/brunna/.nuget/packages/microsoft.aspnet.webapi.core/5.2.9/microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",
@@ -39,6 +40,7 @@
     "/home/brunna/.nuget/packages/microsoft.testplatform.objectmodel/17.4.1/microsoft.testplatform.objectmodel.17.4.1.nupkg.sha512",
     "/home/brunna/.nuget/packages/microsoft.testplatform.testhost/17.4.1/microsoft.testplatform.testhost.17.4.1.nupkg.sha512",
     "/home/brunna/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "/home/brunna/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
     "/home/brunna/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/home/brunna/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/brunna/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
@@ -68,6 +70,7 @@
     "/home/brunna/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/home/brunna/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/home/brunna/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/home/brunna/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/home/brunna/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/home/brunna/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/home/brunna/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",

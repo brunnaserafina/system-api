@@ -124,3 +124,5 @@
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/xunit.runner.reporters.netcoreapp10.dll
 /home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/xunit.runner.utility.netcoreapp10.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Castle.Core.dll
+/home/brunna/Documents/MeuProjetoMVC/bin/Debug/net7.0/Moq.dll
