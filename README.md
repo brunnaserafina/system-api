@@ -12,6 +12,8 @@
 
 - Login - POST ("/auth/login")
 - Cadastro de usuários - POST ("/customers/register")
+- Geração de token de autenticação
+- Validação de cpf
 
 </br>
 
@@ -66,8 +68,19 @@ $ dotnet run
 
 </br>
 
+</br>
+
+
+### Rodando os testes
+
+1. Navegue até o diretório raiz do projeto.
+2. Execute o comando ```dotnet restore``` para restaurar as dependências do projeto.
+3. Em seguida, execute o comando ```dotnet test``` para executar os testes.
+4. Aguarde até que os testes sejam concluídos. Você verá a saída no console indicando o progresso e o resultado dos testes.
+
+
 ### Database
- <img  alt="database" src="https://github.com/brunnaserafina/system-api/assets/106851605/3c5ac290-a88b-4d6b-9425-996e09cd18de" />
+ <img  alt="database" src="https://github.com/brunnaserafina/system-api/assets/106851605/3ec0a902-e84a-4112-90ef-e1034332a316" />
 
 </br>
 
