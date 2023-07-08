@@ -16,7 +16,7 @@ namespace MeuProjetoMVC.Tests
             };
 
             // Act
-            loginRequest.SelectUserAndPassword();
+            loginRequest.ValidateUserAndPassword();
 
             // Assert
             Assert.True(loginRequest.isValidUser);
@@ -33,7 +33,7 @@ namespace MeuProjetoMVC.Tests
             };
 
             // Act
-            loginRequest.SelectUserAndPassword();
+            loginRequest.ValidateUserAndPassword();
 
             // Assert
             Assert.False(loginRequest.isValidUser);
