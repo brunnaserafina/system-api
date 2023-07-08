@@ -11,7 +11,8 @@ public class CustomerRequest
     public string phone { get; set; } = string.Empty;
 
     public bool ValidateCPF()
-    {
+    //font: https://www.macoratti.net/11/09/c_val1.htm
+    {   
         if (string.IsNullOrEmpty(cpf))
         {
             return false;
