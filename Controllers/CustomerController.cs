@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MeuProjetoMVC.Models;
-
+using MeuProjetoMVC.Helpers;
 
 
 namespace MeuProjetoMVC.Controllers;
@@ -12,12 +12,12 @@ public class CustomerController : Controller
     {
         if (string.IsNullOrEmpty(customerRequest.name) || string.IsNullOrEmpty(customerRequest.cpf))
         {
-            return BadRequest();
+            return ErrorHandling.BadRequest();
         }
 
         if (!customerRequest.ValidateCPF())
         {
-            return BadRequest("CPF inválido, falha no registro.");
+            return ErrorHandling.BadRequest("CPF inválido, falha no registro.");
         }
 
         customerRequest.InsertCustomer();

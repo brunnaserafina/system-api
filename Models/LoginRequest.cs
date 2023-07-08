@@ -29,7 +29,6 @@ public class LoginRequest
 
                 using (var reader = command.ExecuteReader())
                 {
-                    Console.WriteLine(reader.HasRows);
                     if (reader.HasRows)
                     {   
                         this.isValidUser = true;

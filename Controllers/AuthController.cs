@@ -12,16 +12,16 @@ public class AuthController : Controller
     public IActionResult Login([FromBody] LoginRequest loginRequest)
     {   
         //Validation without database
-        if (loginRequest.user != "SISTEMA" || loginRequest.password != "candidato123")
-        {
-             return Unauthorized();
-        }
+        // if (loginRequest.user != "SISTEMA" || loginRequest.password != "candidato123")
+        // {
+        //      return Unauthorized();
+        // }
 
         //Validation with database
         loginRequest.SelectUserAndPassword();
 
         if(!loginRequest.isValidUser){
-            return Unauthorized();
+            return ErrorHandling.Unauthorized();
         }
 
         string token = TokenHelper.GenerateToken(loginRequest.user);
